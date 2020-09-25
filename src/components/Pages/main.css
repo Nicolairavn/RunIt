@@ -1,0 +1,170 @@
+h1{
+    background-color: #CB4046;
+    width: 27%;
+    text-align: center;
+}
+h6{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#timerbox{
+    background-color: #CB4046;
+    color: white;
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#runit_logo_top1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+#runit_logo_top2{
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+}
+#reminder{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #CB4046;
+    color: white; 
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+#pris{
+    font-size: 20px;
+    font-weight: bold;
+}
+#dato{
+    font-style: italic;
+}
+#event_ny{
+    background-color: white;
+    font-size: 10px;
+}
+#knap{
+    background-color: #CB4046;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 34%;
+    padding-right: 34%;
+    font-size: 20px;
+    font-weight: bold  
+}
+#knap:hover{
+    background-color: black;
+}
+
+#tilmeld{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+#tilmeld img{
+    width: 50%;
+    margin-left: 25%;
+}
+#tilmeld p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#input_email{
+    width: 50%;
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-top-width: 2px;
+    border-bottom-width: 1px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+#input_submit{
+    width: 50%;
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-top-width: 1px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+#input_submit:hover{
+    background-color: grey;
+}
+#Sponsorebox p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+#Sponsorebox{
+    padding-top: 20px;
+    background-color: #FFDC73;
+}
+#Sponsorebox img{
+ width: 50%;
+ margin-left: 25%;
+}
+
+#runit_logo_bottom1{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+#runit_logo_bottom2{
+    color: #CB4046;
+    font-weight: bold;
+    font-size: 80px;
+    margin-right: 5%;
+}
+#runit_footer{
+    text-align: right;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    h1{ 
+        width: 100%;
+    }
+    #timerbox{
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #input_email{
+        width: 70%; 
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #input_submit{
+        width: 70%; 
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    #knap{
+        padding-left: 33%;
+        padding-right: 33%;
+    }
+ }

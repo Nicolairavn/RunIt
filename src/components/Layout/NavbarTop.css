@@ -1,0 +1,48 @@
+nav{
+    color: white; 
+}
+#links{
+    color: white;
+    background-color: #CB4046; 
+    padding: 5px;
+}
+#linkknap{
+    color: white;
+}
+#linkknap:hover{
+    color: black;
+}
+#NaesteLob{
+    background-color: black;
+    padding: 8px;
+}
+#NaesteLob p{
+    text-align: center;
+    margin-top: 10px;
+}
+#soegknap{
+    background-color: black;
+    border: none;
+}
+#soegknap:hover{
+    background-color:grey;
+}
+
+@media (max-width: 768px) {
+    #soegknap{
+        margin-top: 20px;
+    }
+    #soegfelt{
+        margin-top: 20px;
+    }
+    #linkknap{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color:white;
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+}
